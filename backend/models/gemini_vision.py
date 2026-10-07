@@ -126,7 +126,7 @@ class GeminiMedicalVision:
             }
         }
 
-        models_to_try = ["gemini-2.0-flash", "gemini-1.5-flash", "gemini-1.5-pro"]
+        models_to_try = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-3.8-flash", "gemini-1.5-flash"]
         for model_name in models_to_try:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={active_key}"
             try:

@@ -18,6 +18,7 @@ from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+from backend.core.config import get_hardware_config, PATHOLOGIES, ANATOMICAL_ZONES
 from backend.models.image_quality import ImageQualityAuditor
 from backend.models.anatomy_detector import AnatomyDetector, MusculoskeletalAnalyzer
 from backend.models.medical_vision import MedicalVisionEngine
