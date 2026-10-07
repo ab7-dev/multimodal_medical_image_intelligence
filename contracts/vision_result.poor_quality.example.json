@@ -1,9 +1,0 @@
-{
-  "image_id": "blurry_xray",
-  "quality": {"blur": 24.0, "brightness": 0.49, "contrast": 0.18, "is_chest_xray": true, "status": "poor", "issues": ["blurry"]},
-  "findings": [
-    {"label": "Pneumonia", "score": 0.42, "region": {"x": 0.31, "y": 0.28, "w": 0.22, "h": 0.35}, "heatmap_path": "outputs/heatmaps/blurry_xray_Pneumonia.png"},
-    {"label": "Effusion", "score": 0.16, "region": null, "heatmap_path": null},
-    {"label": "Pneumothorax", "score": 0.08, "region": null, "heatmap_path": null}
-  ]
-}

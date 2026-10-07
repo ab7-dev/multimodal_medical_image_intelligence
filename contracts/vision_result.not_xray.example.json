@@ -1,5 +1,0 @@
-{
-  "image_id": "color_photo",
-  "quality": {"blur": 183.0, "brightness": 0.51, "contrast": 0.24, "is_chest_xray": false, "status": "poor", "issues": ["not_chest_xray"]},
-  "findings": []
-}
