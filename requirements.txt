@@ -1,0 +1,9 @@
+torch
+torchxrayvision
+opencv-python
+scikit-learn
+grad-cam
+jsonschema
+pytest
+numpy
+pandas

@@ -1,0 +1,9 @@
+{
+  "image_id": "example_xray",
+  "quality": {"blur": 612.4, "brightness": 0.48, "contrast": 0.21, "is_chest_xray": true, "status": "good", "issues": []},
+  "findings": [
+    {"label": "Pneumonia", "score": 0.42, "region": {"x": 0.31, "y": 0.28, "w": 0.22, "h": 0.35}, "heatmap_path": "outputs/heatmaps/example_xray_Pneumonia.png"},
+    {"label": "Effusion", "score": 0.16, "region": null, "heatmap_path": null},
+    {"label": "Pneumothorax", "score": 0.08, "region": null, "heatmap_path": null}
+  ]
+}

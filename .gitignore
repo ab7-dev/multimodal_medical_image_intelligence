@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+data/nih/images*/
+data/images/*
+!data/images/.gitkeep
+outputs/heatmaps/*
+!outputs/heatmaps/.gitkeep
+outputs/sample_vision_result.json
+.aider*
+!.aider.conf.yml
